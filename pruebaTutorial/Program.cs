@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using pruebaTutorial.Data;
+using pruebaTutorial.DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

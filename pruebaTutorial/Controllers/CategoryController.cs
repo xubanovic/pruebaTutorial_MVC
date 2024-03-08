@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using pruebaTutorial.Data;
+using pruebaTutorial.DataAccess.Data;
 using pruebaTutorial.Models;
 
 namespace pruebaTutorial.Controllers

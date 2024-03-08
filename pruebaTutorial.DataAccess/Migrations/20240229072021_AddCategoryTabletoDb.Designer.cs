@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using pruebaTutorial.Data;
+using pruebaTutorial.DataAccess.Data;
 
 #nullable disable
 
-namespace pruebaTutorial.Migrations
+namespace pruebaTutorial.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240229072021_AddCategoryTabletoDb")]

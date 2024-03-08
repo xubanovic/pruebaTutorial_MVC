@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace pruebaTutorial.Migrations
+namespace pruebaTutorial.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTabletoDb : Migration
