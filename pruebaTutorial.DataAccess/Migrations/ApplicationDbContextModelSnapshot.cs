@@ -7,7 +7,7 @@ using pruebaTutorial.DataAccess.Data;
 
 #nullable disable
 
-namespace pruebaTutorial.Migrations
+namespace pruebaTutorial.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -34,7 +34,8 @@ namespace pruebaTutorial.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
