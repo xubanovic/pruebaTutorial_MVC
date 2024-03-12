@@ -11,7 +11,7 @@ using pruebaTutorial.DataAccess.Data;
 namespace pruebaTutorial.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240311090118_AddCategoryToDbAndSeedTable")]
+    [Migration("20240312165254_AddCategoryToDbAndSeedTable")]
     partial class AddCategoryToDbAndSeedTable
     {
         /// <inheritdoc />
