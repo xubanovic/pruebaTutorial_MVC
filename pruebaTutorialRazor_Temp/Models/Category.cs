@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 
-namespace pruebaTutorialRazor_Temp.Models
+namespace pruebaTutorialBookRazor_Temp.Models
 {
     public class Category
     {

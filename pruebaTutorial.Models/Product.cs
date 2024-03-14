@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pruebaTutorialBook.Utility
+namespace pruebaTutorialBook.Models
 {
-    public static class SD
+    internal class Product
     {
     }
 }

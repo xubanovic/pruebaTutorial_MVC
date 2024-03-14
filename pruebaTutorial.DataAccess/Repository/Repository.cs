@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
-using pruebaTutorial.DataAccess.Data;
-using pruebaTutorial.DataAccess.Repository.IRepository;
+using pruebaTutorialBook.DataAccess.Data;
+using pruebaTutorialBook.DataAccess.Repository.IRepository;
 
-namespace pruebaTutorial.DataAccess.Repository
+namespace pruebaTutorialBook.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

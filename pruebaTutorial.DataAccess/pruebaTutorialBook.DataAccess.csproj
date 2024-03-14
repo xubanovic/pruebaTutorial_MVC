@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\pruebaTutorial.Models\pruebaTutorial.Models.csproj" />
-    <ProjectReference Include="..\pruebaTutorial.Utility\pruebaTutorial.Utility.csproj" />
+    <ProjectReference Include="..\pruebaTutorial.Models\pruebaTutorialBook.Models.csproj" />
+    <ProjectReference Include="..\pruebaTutorial.Utility\pruebaTutorialBook.Utility.csproj" />
   </ItemGroup>
 
 </Project>

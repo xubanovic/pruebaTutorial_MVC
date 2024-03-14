@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pruebaTutorialRazor_Temp.Models;
+using pruebaTutorialBookRazor_Temp.Models;
 
-namespace pruebaTutorialRazor_Temp.Data
+namespace pruebaTutorialBookRazor_Temp.Data
 {
     public class ApplicationDbContext : DbContext
     {

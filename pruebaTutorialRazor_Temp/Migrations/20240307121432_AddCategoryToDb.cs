@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace pruebaTutorialRazor_Temp.Migrations
+namespace pruebaTutorialBookRazor_Temp.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDb : Migration

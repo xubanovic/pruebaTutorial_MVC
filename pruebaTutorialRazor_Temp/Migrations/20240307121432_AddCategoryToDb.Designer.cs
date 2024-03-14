@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using pruebaTutorialRazor_Temp.Data;
+using pruebaTutorialBookRazor_Temp.Data;
 
 #nullable disable
 
-namespace pruebaTutorialRazor_Temp.Migrations
+namespace pruebaTutorialBookRazor_Temp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240307121432_AddCategoryToDb")]
@@ -24,7 +24,7 @@ namespace pruebaTutorialRazor_Temp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("pruebaTutorialRazor_Temp.Models.Category", b =>
+            modelBuilder.Entity("pruebaTutorialBookRazor_Temp.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

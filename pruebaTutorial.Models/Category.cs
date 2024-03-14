@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace pruebaTutorial.Models
+namespace pruebaTutorialBook.Models
 {
     public class Category
     {

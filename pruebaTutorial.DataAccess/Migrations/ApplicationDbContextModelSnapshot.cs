@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using pruebaTutorial.DataAccess.Data;
+using pruebaTutorialBook.DataAccess.Data;
 
 #nullable disable
 
-namespace pruebaTutorial.DataAccess.Migrations
+namespace pruebaTutorialBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace pruebaTutorial.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("pruebaTutorial.Models.Category", b =>
+            modelBuilder.Entity("pruebaTutorialBook.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

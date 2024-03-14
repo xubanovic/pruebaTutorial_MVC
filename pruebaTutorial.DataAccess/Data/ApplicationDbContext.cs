@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pruebaTutorial.Models;
+using pruebaTutorialBook.Models;
 
-namespace pruebaTutorial.DataAccess.Data
+namespace pruebaTutorialBook.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

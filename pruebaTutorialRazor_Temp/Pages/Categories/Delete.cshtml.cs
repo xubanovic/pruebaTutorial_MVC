@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using pruebaTutorialRazor_Temp.Data;
-using pruebaTutorialRazor_Temp.Models;
+using pruebaTutorialBookRazor_Temp.Data;
+using pruebaTutorialBookRazor_Temp.Models;
 
-namespace pruebaTutorialRazor_Temp.Pages.Categories
+namespace pruebaTutorialBookRazor_Temp.Pages.Categories
 {
     [BindProperties]
     public class DeleteModel : PageModel
