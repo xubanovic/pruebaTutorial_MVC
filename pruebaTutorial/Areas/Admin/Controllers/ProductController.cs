@@ -1,15 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Primitives;
 using pruebaTutorialBook.DataAccess.Data;
 using pruebaTutorialBook.DataAccess.Repository.IRepository;
 using pruebaTutorialBook.Models;
 using pruebaTutorialBook.Models.ViewModels;
+using pruebaTutorialBook.Utility;
 using System.Collections.Generic;
 
 namespace pruebaTutorialBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

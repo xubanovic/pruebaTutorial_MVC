@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using pruebaTutorialBook.DataAccess.Data;
 using pruebaTutorialBook.DataAccess.Repository.IRepository;
 using pruebaTutorialBook.Models;
+using pruebaTutorialBook.Utility;
 
 namespace pruebaTutorialBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
